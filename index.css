@@ -1,0 +1,30 @@
+body {
+  user-select: none;
+}
+.container {
+  width: 800px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  margin: auto;
+  background-color: #00000000;
+}
+.item-list {
+  padding: 0;
+}
+.item-detail-list {
+  display: none;
+}
+.item-list li,
+.item-detail-list li {
+  width: 200px;
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 20px 10px;
+  text-align: center;
+  list-style: none;
+  cursor: pointer;
+}
